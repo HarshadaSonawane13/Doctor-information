@@ -117,3 +117,26 @@ body {
     grid-auto-columns: 100%;
   }
 }
+
+.wrapper button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 22px;
+  margin-right: 30px; /* Adjusted margin */
+  margin-left: 50px;
+}
+
+.wrapper button:hover {
+  background-color: white; /* Change background color to white on hover */
+  color: black; /* Change text color to black on hover */
+  border: 2px solid black;
+}
+
+.wrapper button:hover::after {
+  background-color: black; /* Change border color to black on hover */
+}
